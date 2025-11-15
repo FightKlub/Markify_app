@@ -15,6 +15,10 @@ Markify is a complete, production-ready Flutter application for automated MCQ gr
 - Results & Analytics:
 	- Automated evaluation with support for single/multiple-correct answers and partial marking.
 	- Export results to CSV/Excel and display summary analytics in-app.
+<img width="349" height="771" alt="image" src="https://github.com/user-attachments/assets/ab43e052-91cc-41dd-a944-ab88fc6e3863" />
+<img width="349" height="770" alt="image" src="https://github.com/user-attachments/assets/1b7b8023-094a-497e-bc19-ee79904ce4fe" />
+<img width="345" height="767" alt="image" src="https://github.com/user-attachments/assets/5f0b62f3-edd1-401f-a781-a6981a17c35e" />
+<img width="347" height="768" alt="image" src="https://github.com/user-attachments/assets/4af3bce1-256e-4105-b714-2d0b70443cf2" />
 
 ## Architecture & Technologies
 - Frontend: Flutter (Dart) — responsive mobile and web UI.
