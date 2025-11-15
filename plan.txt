@@ -1,0 +1,106 @@
+1. Splash & Onboarding
+Splash screen:
+App logo in center.
+Sub-text: “Automated MCQ Paper Evaluation”.
+Progress indicator (fade animation).
+Onboarding slides (optional):
+Slide 1 → Upload answer sheets easily.
+Slide 2 → Create & manage answer keys.
+Slide 3 → Instant evaluation & results.
+Button: “Get Started”.
+
+2. Login / Authentication
+Simple teacher login (email + password).
+“Forgot password” link.
+Primary button: Login.
+Clean Material Design 3 form fields with icons (email, lock).
+
+3. Dashboard (Home Screen)
+AppBar (top bar): Title → “Dashboard” + profile icon (top right).
+Stats cards (grid layout):
+✅ Papers evaluated
+⏳ Pending
+📊 Class average
+Quick actions row (big rounded buttons):
+📷 Upload Papers
+✏️ Create Answer Key
+📈 View Results
+Recent activity list (vertical cards):
+“Test 1 evaluated – 40 papers”
+“Test 2 pending – 15 papers”
+
+4. Paper Upload Screen
+Top bar: “Upload Papers”.
+Two options (tabs):
+Camera (use device camera, real-time capture).
+Gallery (pick scanned images).
+Batch upload preview grid:
+Thumbnails of uploaded answer sheets.
+Checkbox for selection.
+Upload button (FAB at bottom right): “Start Evaluation”.
+Progress indicator when uploading.
+
+5. Answer Key Management
+List view of tests/exams (cards with title & date).
+Floating action button (FAB): “+ Create Answer Key”.
+Create Answer Key Wizard:
+Step 1: Enter test name + total questions.
+Step 2: Add correct options for each question.
+UI → Question number + option checkboxes (A/B/C/D).
+Step 3: Choose evaluation mode:
+Strict (all options must match).
+Partial (credit for partially correct answers).
+Save & preview.
+
+6. Evaluation Progress
+Full-screen modal with progress bar.
+Status cards:
+“OCR in progress…”
+“Comparing answers…”
+“Generating report…”
+✅ Success screen → “Evaluation Completed!”
+CTA buttons: View Results | Export Report.
+
+7. Results & Analytics
+Tab bar navigation:
+Student Results | Class Analytics.
+Student Results (list view):
+Each row → Student name + score + badge (pass/fail).
+Tap → Detailed view (question-wise marking with ticks/crosses).
+Class Analytics (charts):
+Bar chart → Distribution of scores.
+Pie chart → Correct % vs Wrong %.
+Line chart → Class improvement over tests.
+Export button: Download as PDF/Excel.
+
+8. Settings & Profile
+Teacher Profile Card: Name, email, school.
+Options list (Material ListTiles):
+Edit profile.
+Change password.
+Dark mode toggle.
+Language settings.
+Logout.
+
+🎨 Design Guidelines
+Theme: Material Design 3 (MD3).
+Colors:
+Primary → Blue (trustworthy).
+Secondary → Green (success).
+Neutral backgrounds for readability.
+Typography:
+Headings → Bold, medium size.
+Body text → Clean sans serif.
+Icons: Use Material Icons (upload, dashboard, analytics, settings).
+Interactions: Smooth animations for uploads, transitions, and button presses.
+
+📐 Layout Summary (like Figma frame titles)
+SplashScreen
+LoginScreen
+DashboardScreen
+UploadScreen
+AnswerKeyListScreen
+AnswerKeyCreateScreen
+EvaluationProgressModal
+ResultsScreen (tabs: StudentResults, ClassAnalytics)
+ProfileScreen

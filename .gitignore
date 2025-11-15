@@ -1,0 +1,20 @@
+﻿# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+# Android/IntelliJ/VSCode
+.idea/
+.vscode/
+*.iml
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+podfile.lock
+# macOS
+macos/Flutter/ephemeral/
+# Windows
+windows/flutter/ephemeral/
+# Misc
+*.log
